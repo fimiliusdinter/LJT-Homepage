@@ -8,14 +8,14 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default"
 title                    : "Junteng Liu"
 title_separator          : "-"
 name                     : &name "Junteng Liu"
-description              : &description "Junteng Liu's academic homepage"
+description              : &description "Junteng Liu's academic homepage: natural language processing, machine learning, LLM reasoning, hallucination, and interpretability."
 url                      : https://fimiliusdinter.github.io
-baseurl                  : ""
-repository               : "fimiliusdinter/academicpages.github.io"
+baseurl                  : "/LJT-Homepage"
+repository               : "fimiliusdinter/LJT-Homepage"
 
 # Site Author
 author:
@@ -23,7 +23,7 @@ author:
   avatar           : "profile.png"
   name             : "Junteng Liu"
   pronouns         :
-  bio              : "First-year PhD candidate at HKUST NLP Group, working on natural language processing, machine learning, LLM reasoning, hallucination, and model interpretability."
+  bio              : "First-year PhD candidate at HKUST NLP Group, advised by Professor Junxian He. My research focuses on natural language processing and machine learning, especially LLM reasoning and reinforcement learning, hallucination in vision-language models, and LLM truthfulness and interpretability."
   location         : "Hong Kong"
   employer         : "Hong Kong University of Science and Technology"
   uri              :
@@ -83,7 +83,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles / Preprints'
   conferences:
     title: 'Conference Papers'
 
@@ -206,7 +206,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# These settings control the types of collections used by the template
+# Collections
 collections:
   teaching:
     output: true
@@ -221,9 +221,8 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# These settings control how pages and collections are included in the site
+# Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -234,14 +233,12 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -250,7 +247,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
   - scope:
       path: ""
       type: publications
@@ -259,7 +255,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -268,7 +263,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
   - scope:
       path: ""
       type: talks
