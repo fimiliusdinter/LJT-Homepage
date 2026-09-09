@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Junteng Liu"
 title_separator          : "-"
 name                     : &name "Junteng Liu"
-description              : &description "Junteng Liu's academic homepage: natural language processing, machine learning, LLM reasoning, hallucination, and interpretability."
+description              : &description "Junteng Liu's academic homepage"
 url                      : https://fimiliusdinter.github.io
 baseurl                  : "/LJT-Homepage"
 repository               : "fimiliusdinter/LJT-Homepage"
@@ -23,8 +23,8 @@ author:
   avatar           : "profile.png"
   name             : "Junteng Liu"
   pronouns         :
-  bio              : "First-year PhD candidate at HKUST NLP Group, advised by Professor Junxian He. My research focuses on natural language processing and machine learning, especially LLM reasoning and reinforcement learning, hallucination in vision-language models, and LLM truthfulness and interpretability."
-  location         : "Hong Kong"
+  bio              : "First-year PhD candidate at HKUST NLP Group. Research focuses on natural language processing and machine learning."
+  location         :
   employer         : "Hong Kong University of Science and Technology"
   uri              :
   email            : "jliugi@connect.ust.hk"
@@ -83,7 +83,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles / Preprints'
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
