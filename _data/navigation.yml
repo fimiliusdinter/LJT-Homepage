@@ -1,9 +1,7 @@
 # The following is the order of the links in the header of the website.
+# Using only pages already provided by the template.
 
 main:
-  - title: "About"
-    url: /
-
   - title: "Publications"
     url: /publications/
 
