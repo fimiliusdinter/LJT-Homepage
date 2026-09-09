@@ -18,3 +18,10 @@ My research focuses on **natural language processing (NLP)** and **machine learn
 I enjoy working across language models, vision-language understanding, evaluation, and representation-level analysis. My goal is to understand how large models reason, where they fail, and how to improve their reliability.
 
 You can find my GitHub, Google Scholar, and X/Twitter links in the sidebar.
+
+Selected Publications
+======
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}</ul>
